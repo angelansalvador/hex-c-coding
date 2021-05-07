@@ -2,7 +2,6 @@
 
 /**
 * main - Print a phrase
-* 
 * Return: Prints Programming is like building a multilingual puzzle
 */
 
