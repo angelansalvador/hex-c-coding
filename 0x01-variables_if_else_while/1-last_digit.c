@@ -4,7 +4,7 @@
 
 /**
 * main - Code to print the last digit of a random n generated
-* return: prints the last digit
+* Return: prints the last digit
 */
 int main(void)
 {
