@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 
-/*  
+/*
 * main - Code to print the last digit of a random n generated
-* return: prints the last digit 
+* return: prints the last digit
 */
 int main(void)
 {
@@ -19,7 +19,8 @@ int main(void)
 	else if (lastDigit == 0)
 		printf("Last digit of %d is %d and is 0\n", n, lastDigit);
 	else if (lastDigit < 6)
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastDigit);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n",
+		n, lastDigit);
 
 	return (0);
 }
