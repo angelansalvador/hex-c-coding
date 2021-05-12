@@ -6,11 +6,12 @@
 */
 int main(void)
 {
-	int ascii_code; 
+	int ascii_code;
 
 	for (ascii_code = 97; ascii_code < 123; ascii_code++)
 	{
 	putchar(ascii_code);
 	}
-	return 0;
+	putchar('\n');
+	return(0);
 }
