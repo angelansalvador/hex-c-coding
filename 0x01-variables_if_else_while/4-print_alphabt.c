@@ -10,7 +10,7 @@ int main(void)
 
 	for (ascii_code = 97; ascii_code < 123; ascii_code++)
 	{
-		if (ascii_code == 101 or ascii_code == 113)
+		if (ascii_code == 101 || ascii_code == 113)
 		{
 		}
 		else
