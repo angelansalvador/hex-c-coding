@@ -7,6 +7,7 @@
 int main(void)
 {
 	int ascii_code;
+	
 	for (ascii_code = 48; ascii_code < 58; ascii_code++)
 	{
 	putchar(ascii_code);
@@ -18,7 +19,7 @@ int main(void)
 		{
 		putchar(',');
 		putchar(' ');
-		}	
+		}
 	}
 	putchar('\n');
 	return (0);
