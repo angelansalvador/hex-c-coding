@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - printing reverse lowercase alfabet 
+* main - printing reverse lowercase alfabet
 * Return: Prints zyxwvu....a
 */
 int main(void)
