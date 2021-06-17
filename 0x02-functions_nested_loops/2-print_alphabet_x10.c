@@ -4,7 +4,7 @@
 * print_alphabet - printing 10x alphabet
 * Return: Prints abcdefghjk...z 10X
 */
-void print_alphabet()
+void print_alphabet_x10()
 {
 	int ascii_code;
 	for (int i=0; i<10; i++)
