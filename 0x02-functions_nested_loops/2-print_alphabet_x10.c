@@ -9,7 +9,7 @@ void print_alphabet_x10(void)
 	int ascii_code;
 	int i = 0;
 
-	do{
+	do {
 		for (ascii_code = 97; ascii_code < 123; ascii_code++)
 		{
 		_putchar(ascii_code);
