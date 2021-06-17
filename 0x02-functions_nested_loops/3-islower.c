@@ -5,11 +5,12 @@
 */
 int _islower(char c){
 
-	if (islower(c)==0){
-	return 1;
+	if (c > 96 && c < 123)
+       	{
+		return 1;
 	}
 	else
 	{
-	return 0;
+		return 0;
 	}
 }
