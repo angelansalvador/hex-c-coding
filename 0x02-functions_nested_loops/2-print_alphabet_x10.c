@@ -7,13 +7,15 @@
 void print_alphabet_x10()
 {
 	int ascii_code;
-	for (int i=0; i<10; i++)
+	int i = 0;
+	do
 	{
 		for (ascii_code = 97; ascii_code < 123; ascii_code++)
 		{
 		_putchar(ascii_code);
 		}
 		_putchar('\n');
-	}
+		i++;
+	} while (i<10);
 }
 
