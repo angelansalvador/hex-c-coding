@@ -12,5 +12,6 @@ int print_last_digit(int i)
 	i = i *- 1;
 	}
 	i = i%10;
-	return (printf("%d", i));
+	_putchar (i + 48);
+	return (i);
 }
